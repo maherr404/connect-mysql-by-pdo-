@@ -41,7 +41,7 @@ class user extends dp{
 
         $sql = "insert into lala (name , email , password) values (?,?,?)";
         $statment = $this -> connection() -> prepare($sql);             // prepare()
-        $x = $statment -> execute(['abeer','abeer@gmail','abeer']);
+        $x = $statment -> execute(['omar','omar@gmail','omar']);
         if($x){
             echo "inserted successfully";
         }
